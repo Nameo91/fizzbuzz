@@ -5,6 +5,6 @@ end
 it 'returns "Buzz" for the number 5' do
   expect(5.fizzbuzz).to eq 'Buzz'
 end 
-it 'returns "Fizzbuzz for the number 15'
-  expect(5.fizzbuzz).to eq "Fizzbuzz"
+it 'returns "Fizzbuzz for the number 15' do
+  expect(15.fizzbuzz).to eq "FizzBuzz"
 end

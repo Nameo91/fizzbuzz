@@ -1,13 +1,11 @@
 def fizzbuzz(number)
-  1.upto(number) do |n|
-    if n % 15 == 0
-      "Fizzbuzz"
-    elsif n % 3 == 0
-      "Fizz"
-    elsif n % 5 == 0
-      "Buzz"
-    else 
-      n
-    end
+  if number % 15 == 0
+    "FizzBuzz"
+  elsif number % 3 == 0
+    "Fizz"
+  elsif number % 5 == 0
+    "Buzz"
+  else 
+    number
   end
 end
